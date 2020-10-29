@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UaNewsMVP</string>
+    <string name="news_image">News image</string>
+    <string name="query_hint">Search news</string>
+    <string name="error_message_miss_application">Needed Application is missing</string>
+    <string name="error_message_miss_url">Missing url adress in news description</string>
+    <string name="error_message_loads_news">Error of loading news data from server. Please restart application.</string>
+</resources>

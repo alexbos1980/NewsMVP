@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_cell_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_top_bottom_cell"
+    android:layout_marginBottom="@dimen/margin_top_bottom_cell"
+    android:layout_marginStart="@dimen/margin_start_end_cell"
+    android:layout_marginEnd="@dimen/margin_start_end_cell"
+    android:padding="@dimen/margin_top_bottom_cell"
+    android:background="@color/item_news_light_background">
+
+    <ImageView
+        android:id="@+id/iv_image_news"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/news_image" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_top_bottom_cell"
+        android:id="@+id/iv_read_news_on_off"
+        android:src="@drawable/ic_read_news_on_off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image_news" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_end_cell"
+        android:layout_marginTop="@dimen/margin_top_bottom_cell"
+        android:layout_marginEnd="@dimen/margin_start_end_cell"
+        android:id="@+id/tv_title_news"
+        android:paddingStart="@dimen/margin_start_end_cell"
+        android:paddingEnd="@dimen/margin_start_end_cell"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_date_time_news"
+        app:layout_constraintStart_toEndOf="@+id/iv_read_news_on_off"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image_news"
+        tools:text="WALL MART" />
+
+    <TextView
+        android:id="@+id/tv_date_time_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_start_end_cell"
+        android:textSize="@dimen/normal_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/ibt_open_news"
+        app:layout_constraintEnd_toStartOf="@+id/ibt_open_news"
+        app:layout_constraintTop_toTopOf="@+id/ibt_open_news"
+        tools:text="fri oct 12.00" />
+
+    <ImageButton
+        android:id="@+id/ibt_open_news"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_marginTop="@dimen/margin_top_bottom_cell"
+        android:backgroundTint="@color/background_white"
+        android:src="@drawable/ic_arrow_forward_grey_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image_news" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_bottom_cell"
+        android:id="@+id/tv_source_news"
+        android:paddingEnd="@dimen/margin_start_end_cell"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_title_news"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_news"
+        tools:text="BBC news" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_bottom_cell"
+        android:ellipsize="end"
+        android:id="@+id/tv_description_news"
+        android:maxLines="3"
+        android:paddingEnd="@dimen/margin_start_end_cell"
+        android:textSize="@dimen/normal_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_source_news"
+        app:layout_constraintTop_toBottomOf="@+id/tv_source_news"
+        tools:text="WallMart is open 24 hour" />
+</androidx.constraintlayout.widget.ConstraintLayout>

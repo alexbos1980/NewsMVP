@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">6dp</dimen>
+    <dimen name="margin_start_end_cell">8dp</dimen>
+    <dimen name="margin_start_end_date_source_cell">16dp</dimen>
+    <dimen name="margin_top_bottom_cell">4dp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="margin_start_end_list">12dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="button_size">36dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    When news is no reading - buttom is blue -->
+    <item android:drawable="@drawable/ic_toogle_btn_blue_on_24dp"
+        android:state_checked="false"/>
+    <!--    When news is reading - buttom is grey -->
+    <item android:drawable="@drawable/ic_toogle_btn_grey_off_24dp"
+        android:state_checked="true"/>
+</selector>
