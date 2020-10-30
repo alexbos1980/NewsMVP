@@ -1,9 +1,9 @@
-package com.bunda.uanewsmvp.views;
+package com.bunda.uanewsmvp.ui.views;
 
 import com.arellomobile.mvp.MvpView;
 import com.arellomobile.mvp.viewstate.strategy.AddToEndSingleStrategy;
 import com.arellomobile.mvp.viewstate.strategy.StateStrategyType;
-import com.bunda.uanewsmvp.models.NewsData;
+import com.bunda.uanewsmvp.data.models.NewsData;
 
 import java.util.List;
 

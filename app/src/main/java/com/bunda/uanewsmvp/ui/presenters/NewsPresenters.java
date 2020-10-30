@@ -1,11 +1,11 @@
-package com.bunda.uanewsmvp.presenters;
+package com.bunda.uanewsmvp.ui.presenters;
 
 import com.arellomobile.mvp.InjectViewState;
 import com.arellomobile.mvp.MvpPresenter;
 import com.bunda.uanewsmvp.R;
-import com.bunda.uanewsmvp.models.NewsData;
-import com.bunda.uanewsmvp.providers.LoadNewsProvider;
-import com.bunda.uanewsmvp.views.NewsView;
+import com.bunda.uanewsmvp.data.models.NewsData;
+import com.bunda.uanewsmvp.data.providers.LoadNewsProvider;
+import com.bunda.uanewsmvp.ui.views.NewsView;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bunda.uanewsmvp.network;
+package com.bunda.uanewsmvp.data.network;
 
 import com.bunda.uanewsmvp.BuildConfig;
 import com.google.gson.Gson;

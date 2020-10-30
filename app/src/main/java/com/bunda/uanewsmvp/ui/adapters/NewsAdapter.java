@@ -1,6 +1,5 @@
-package com.bunda.uanewsmvp.adapters;
+package com.bunda.uanewsmvp.ui.adapters;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,13 +12,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bunda.uanewsmvp.R;
-import com.bunda.uanewsmvp.models.NewsData;
+import com.bunda.uanewsmvp.data.models.NewsData;
 import com.bunda.uanewsmvp.utillity.LoadImage;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.content.ContentValues.TAG;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> implements Filterable {
     private static final String TAG = "NewsAdapter ";

@@ -1,4 +1,4 @@
-package com.bunda.uanewsmvp.activities;
+package com.bunda.uanewsmvp.ui.activities;
 
 
 import android.content.Intent;
@@ -7,12 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,11 +18,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.arellomobile.mvp.MvpAppCompatActivity;
 import com.arellomobile.mvp.presenter.InjectPresenter;
 import com.bunda.uanewsmvp.R;
-import com.bunda.uanewsmvp.adapters.NewsAdapter;
-import com.bunda.uanewsmvp.adapters.OnItemClickListener;
-import com.bunda.uanewsmvp.models.NewsData;
-import com.bunda.uanewsmvp.presenters.NewsPresenters;
-import com.bunda.uanewsmvp.views.NewsView;
+import com.bunda.uanewsmvp.ui.adapters.NewsAdapter;
+import com.bunda.uanewsmvp.ui.adapters.OnItemClickListener;
+import com.bunda.uanewsmvp.data.models.NewsData;
+import com.bunda.uanewsmvp.ui.presenters.NewsPresenters;
+import com.bunda.uanewsmvp.ui.views.NewsView;
 
 import java.util.List;
 

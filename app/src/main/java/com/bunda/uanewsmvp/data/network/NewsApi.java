@@ -1,7 +1,6 @@
-package com.bunda.uanewsmvp.network;
+package com.bunda.uanewsmvp.data.network;
 
-import com.arellomobile.mvp.MvpView;
-import com.bunda.uanewsmvp.models.NewsData;
+import com.bunda.uanewsmvp.data.models.NewsData;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

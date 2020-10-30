@@ -1,4 +1,4 @@
-package com.bunda.uanewsmvp.models;
+package com.bunda.uanewsmvp.data.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

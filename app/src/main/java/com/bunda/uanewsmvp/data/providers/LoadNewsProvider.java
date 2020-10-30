@@ -1,10 +1,10 @@
-package com.bunda.uanewsmvp.providers;
+package com.bunda.uanewsmvp.data.providers;
 
 import com.bunda.uanewsmvp.R;
-import com.bunda.uanewsmvp.models.NewsData;
-import com.bunda.uanewsmvp.network.NetworkService;
-import com.bunda.uanewsmvp.network.NewsApi;
-import com.bunda.uanewsmvp.presenters.NewsPresenters;
+import com.bunda.uanewsmvp.data.models.NewsData;
+import com.bunda.uanewsmvp.data.network.NetworkService;
+import com.bunda.uanewsmvp.data.network.NewsApi;
+import com.bunda.uanewsmvp.ui.presenters.NewsPresenters;
 
 import retrofit2.Call;
 import retrofit2.Callback;
